@@ -2,7 +2,7 @@ import pytest
 from media import Media
 
 
-def test_add_nota(patata):
+def test_add_nota():
     media = Media()
     assert len(media.notas()) == 0
     media.add(3)
